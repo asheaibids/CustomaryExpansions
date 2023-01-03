@@ -12,6 +12,7 @@
 		5EDF2B31B52443D5F38A5E00EDDA7264 /* Pods-customaryExpansions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A6CDA551040F84104453AB0271BFA /* Pods-customaryExpansions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D1C4134D84984BAEF9ED4D87503AFD /* Pods-customaryExpansions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B54ADBB4CBFB8FE4752A11BA6ABCA3D2 /* Pods-customaryExpansions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D6069E929645AAF00A4306F /* IntrinsicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */; };
+		8D6069EC2964605C00A4306F /* IntrinsicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */; };
 		924636B6817DADDE978328F9B21D4863 /* customaryExpansions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C635705F80A8307E432B3EE2A5465 /* customaryExpansions-dummy.m */; };
 		9A120A65AD42323BCA236A21A1F82272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C2143F4F01649DED3F27616602446921 /* Pods-customaryExpansions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C5F98F00401A6EDB0855C04AB21F /* Pods-customaryExpansions_Example-dummy.m */; };
@@ -54,6 +55,7 @@
 		8BEA4A5DDC12FEC3C10014460E0E5D0A /* Pods-customaryExpansions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customaryExpansions_Example-Info.plist"; sourceTree = "<group>"; };
 		8C8A3C15C8B27062C4EC1CC7682E2CEE /* customaryExpansions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = customaryExpansions.modulemap; sourceTree = "<group>"; };
 		8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicTableView.swift; sourceTree = "<group>"; };
+		8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicCollectionView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB8CF5236AD6EC5DBAA12EAA4AF14FE /* Pods-customaryExpansions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-customaryExpansions_Tests-dummy.m"; sourceTree = "<group>"; };
 		A1C4CF137C8F8534D15568C2A73E08D0 /* Pods-customaryExpansions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customaryExpansions_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */,
+				8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				924636B6817DADDE978328F9B21D4863 /* customaryExpansions-dummy.m in Sources */,
+				8D6069EC2964605C00A4306F /* IntrinsicCollectionView.swift in Sources */,
 				8D6069E929645AAF00A4306F /* IntrinsicTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
