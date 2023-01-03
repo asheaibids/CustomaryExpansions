@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
+    s.swift_versions = '4.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
