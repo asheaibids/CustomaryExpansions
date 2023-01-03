@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'customaryExpansions_Example' do
+  pod 'customaryExpansions', :path => '../'
+
+  target 'customaryExpansions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
