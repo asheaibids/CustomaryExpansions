@@ -1,0 +1,6 @@
+framework module customaryExpansions {
+  umbrella header "customaryExpansions-umbrella.h"
+
+  export *
+  module * { export * }
+}

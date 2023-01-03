@@ -1,0 +1,16 @@
+PODS:
+  - customaryExpansions (0.1.0)
+
+DEPENDENCIES:
+  - customaryExpansions (from `../`)
+
+EXTERNAL SOURCES:
+  customaryExpansions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  customaryExpansions: 3a56ae38da8363b8e15596a51dc5fccc517404d4
+
+PODFILE CHECKSUM: 82dd5134f0dc9081684df0d3e3df66aac486d413
+
+COCOAPODS: 1.11.3
