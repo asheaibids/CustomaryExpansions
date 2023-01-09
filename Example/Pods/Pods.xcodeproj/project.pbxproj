@@ -13,6 +13,21 @@
 		63D1C4134D84984BAEF9ED4D87503AFD /* Pods-customaryExpansions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B54ADBB4CBFB8FE4752A11BA6ABCA3D2 /* Pods-customaryExpansions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D6069E929645AAF00A4306F /* IntrinsicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */; };
 		8D6069EC2964605C00A4306F /* IntrinsicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */; };
+		8DDEA83D296BEB0500ECD585 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA83C296BEB0500ECD585 /* CustomView.swift */; };
+		8DDEA83F296BEB3200ECD585 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */; };
+		8DDEA841296BEBC700ECD585 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA840296BEBC700ECD585 /* Extensions.swift */; };
+		8DDEA843296BED8D00ECD585 /* SPRadtioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */; };
+		8DDEA845296BF01100ECD585 /* UIImage+UIImageView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */; };
+		8DDEA847296BF05A00ECD585 /* UITextField+UITextView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */; };
+		8DDEA849296BF09400ECD585 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */; };
+		8DDEA84B296BF13000ECD585 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA84A296BF13000ECD585 /* UITableViewExtensions.swift */; };
+		8DDEA84D296BF19000ECD585 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA84C296BF19000ECD585 /* UIViewControllerExtensions.swift */; };
+		8DDEA84F296BF1B900ECD585 /* WKWebViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA84E296BF1B900ECD585 /* WKWebViewExtensions.swift */; };
+		8DDEA851296BF1E200ECD585 /* UIScrollViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA850296BF1E200ECD585 /* UIScrollViewExtensions.swift */; };
+		8DDEA853296BF20700ECD585 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA852296BF20700ECD585 /* UIDeviceExtensions.swift */; };
+		8DDEA855296BF27800ECD585 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA854296BF27800ECD585 /* UIButtonExtensions.swift */; };
+		8DDEA857296BF29500ECD585 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA856296BF29500ECD585 /* UILabelExtensions.swift */; };
+		8DDEA859296BF2B300ECD585 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA858296BF2B300ECD585 /* UIViewExtensions.swift */; };
 		924636B6817DADDE978328F9B21D4863 /* customaryExpansions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C635705F80A8307E432B3EE2A5465 /* customaryExpansions-dummy.m */; };
 		9A120A65AD42323BCA236A21A1F82272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C2143F4F01649DED3F27616602446921 /* Pods-customaryExpansions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C5F98F00401A6EDB0855C04AB21F /* Pods-customaryExpansions_Example-dummy.m */; };
@@ -47,7 +62,7 @@
 		27600647FABA33D8C8D0BAD0B59C6B45 /* customaryExpansions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = customaryExpansions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A0083D39A4CDD4D3D2FB76789275A9 /* Pods-customaryExpansions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customaryExpansions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		510A9C5E4D048B634195CF1455CF39CC /* Pods-customaryExpansions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-customaryExpansions_Example.modulemap"; sourceTree = "<group>"; };
-		6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods-customaryExpansions_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-customaryExpansions_Tests"; path = Pods_customaryExpansions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods_customaryExpansions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customaryExpansions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7499B21AFEF23F47C7834EAC9B0D6E5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7B968F5C8DBE892BF3EEF2065EA4A9AE /* Pods-customaryExpansions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-customaryExpansions_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +71,21 @@
 		8C8A3C15C8B27062C4EC1CC7682E2CEE /* customaryExpansions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = customaryExpansions.modulemap; sourceTree = "<group>"; };
 		8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicTableView.swift; sourceTree = "<group>"; };
 		8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicCollectionView.swift; sourceTree = "<group>"; };
+		8DDEA83C296BEB0500ECD585 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
+		8DDEA840296BEBC700ECD585 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRadtioButton.swift; sourceTree = "<group>"; };
+		8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+UIImageView Extensions.swift"; sourceTree = "<group>"; };
+		8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+UITextView Extensions.swift"; sourceTree = "<group>"; };
+		8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		8DDEA84A296BF13000ECD585 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		8DDEA84C296BF19000ECD585 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		8DDEA84E296BF1B900ECD585 /* WKWebViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewExtensions.swift; sourceTree = "<group>"; };
+		8DDEA850296BF1E200ECD585 /* UIScrollViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtensions.swift; sourceTree = "<group>"; };
+		8DDEA852296BF20700ECD585 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		8DDEA854296BF27800ECD585 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		8DDEA856296BF29500ECD585 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		8DDEA858296BF2B300ECD585 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB8CF5236AD6EC5DBAA12EAA4AF14FE /* Pods-customaryExpansions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-customaryExpansions_Tests-dummy.m"; sourceTree = "<group>"; };
 		A1C4CF137C8F8534D15568C2A73E08D0 /* Pods-customaryExpansions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customaryExpansions_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -107,7 +137,7 @@
 			children = (
 				27600647FABA33D8C8D0BAD0B59C6B45 /* customaryExpansions.framework */,
 				BE78A3ED24A046A569129FBE35DEE22C /* Pods-customaryExpansions_Example */,
-				6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods-customaryExpansions_Tests */,
+				6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods_customaryExpansions_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +217,21 @@
 			children = (
 				8D6069E829645AAF00A4306F /* IntrinsicTableView.swift */,
 				8D6069EB2964605C00A4306F /* IntrinsicCollectionView.swift */,
+				8DDEA83C296BEB0500ECD585 /* CustomView.swift */,
+				8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */,
+				8DDEA840296BEBC700ECD585 /* Extensions.swift */,
+				8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */,
+				8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */,
+				8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */,
+				8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */,
+				8DDEA84A296BF13000ECD585 /* UITableViewExtensions.swift */,
+				8DDEA84C296BF19000ECD585 /* UIViewControllerExtensions.swift */,
+				8DDEA84E296BF1B900ECD585 /* WKWebViewExtensions.swift */,
+				8DDEA850296BF1E200ECD585 /* UIScrollViewExtensions.swift */,
+				8DDEA852296BF20700ECD585 /* UIDeviceExtensions.swift */,
+				8DDEA854296BF27800ECD585 /* UIButtonExtensions.swift */,
+				8DDEA856296BF29500ECD585 /* UILabelExtensions.swift */,
+				8DDEA858296BF2B300ECD585 /* UIViewExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -317,7 +362,7 @@
 			);
 			name = "Pods-customaryExpansions_Tests";
 			productName = Pods_customaryExpansions_Tests;
-			productReference = 6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods-customaryExpansions_Tests */;
+			productReference = 6D0DA4AB325F64D052EA6A13ECB1FE69 /* Pods_customaryExpansions_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -399,9 +444,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDEA849296BF09400ECD585 /* UICollectionViewExtensions.swift in Sources */,
+				8DDEA843296BED8D00ECD585 /* SPRadtioButton.swift in Sources */,
+				8DDEA84B296BF13000ECD585 /* UITableViewExtensions.swift in Sources */,
+				8DDEA83D296BEB0500ECD585 /* CustomView.swift in Sources */,
+				8DDEA857296BF29500ECD585 /* UILabelExtensions.swift in Sources */,
+				8DDEA853296BF20700ECD585 /* UIDeviceExtensions.swift in Sources */,
+				8DDEA84D296BF19000ECD585 /* UIViewControllerExtensions.swift in Sources */,
+				8DDEA851296BF1E200ECD585 /* UIScrollViewExtensions.swift in Sources */,
 				924636B6817DADDE978328F9B21D4863 /* customaryExpansions-dummy.m in Sources */,
+				8DDEA84F296BF1B900ECD585 /* WKWebViewExtensions.swift in Sources */,
 				8D6069EC2964605C00A4306F /* IntrinsicCollectionView.swift in Sources */,
 				8D6069E929645AAF00A4306F /* IntrinsicTableView.swift in Sources */,
+				8DDEA847296BF05A00ECD585 /* UITextField+UITextView Extensions.swift in Sources */,
+				8DDEA83F296BEB3200ECD585 /* CustomBtn.swift in Sources */,
+				8DDEA855296BF27800ECD585 /* UIButtonExtensions.swift in Sources */,
+				8DDEA841296BEBC700ECD585 /* Extensions.swift in Sources */,
+				8DDEA859296BF2B300ECD585 /* UIViewExtensions.swift in Sources */,
+				8DDEA845296BF01100ECD585 /* UIImage+UIImageView Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-customaryExpansions_Tests/Pods-customaryExpansions_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-customaryExpansions_Tests/Pods-customaryExpansions_Tests.modulemap";
@@ -473,7 +533,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-customaryExpansions_Tests/Pods-customaryExpansions_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-customaryExpansions_Tests/Pods-customaryExpansions_Tests.modulemap";
@@ -635,7 +695,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/customaryExpansions/customaryExpansions-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/customaryExpansions/customaryExpansions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/customaryExpansions/customaryExpansions.modulemap";
 				PRODUCT_MODULE_NAME = customaryExpansions;
@@ -668,7 +728,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/customaryExpansions/customaryExpansions-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/customaryExpansions/customaryExpansions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/customaryExpansions/customaryExpansions.modulemap";
 				PRODUCT_MODULE_NAME = customaryExpansions;
