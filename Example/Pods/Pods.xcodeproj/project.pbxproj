@@ -16,7 +16,7 @@
 		8DDEA83D296BEB0500ECD585 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA83C296BEB0500ECD585 /* CustomView.swift */; };
 		8DDEA83F296BEB3200ECD585 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */; };
 		8DDEA841296BEBC700ECD585 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA840296BEBC700ECD585 /* Extensions.swift */; };
-		8DDEA843296BED8D00ECD585 /* SPRadtioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */; };
+		8DDEA843296BED8D00ECD585 /* SPRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA842296BED8D00ECD585 /* SPRadioButton.swift */; };
 		8DDEA845296BF01100ECD585 /* UIImage+UIImageView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */; };
 		8DDEA847296BF05A00ECD585 /* UITextField+UITextView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */; };
 		8DDEA849296BF09400ECD585 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */; };
@@ -74,7 +74,7 @@
 		8DDEA83C296BEB0500ECD585 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
 		8DDEA840296BEBC700ECD585 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRadtioButton.swift; sourceTree = "<group>"; };
+		8DDEA842296BED8D00ECD585 /* SPRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRadioButton.swift; sourceTree = "<group>"; };
 		8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+UIImageView Extensions.swift"; sourceTree = "<group>"; };
 		8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+UITextView Extensions.swift"; sourceTree = "<group>"; };
 		8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
@@ -220,7 +220,7 @@
 				8DDEA83C296BEB0500ECD585 /* CustomView.swift */,
 				8DDEA83E296BEB3200ECD585 /* CustomBtn.swift */,
 				8DDEA840296BEBC700ECD585 /* Extensions.swift */,
-				8DDEA842296BED8D00ECD585 /* SPRadtioButton.swift */,
+				8DDEA842296BED8D00ECD585 /* SPRadioButton.swift */,
 				8DDEA844296BF01100ECD585 /* UIImage+UIImageView Extensions.swift */,
 				8DDEA846296BF05A00ECD585 /* UITextField+UITextView Extensions.swift */,
 				8DDEA848296BF09400ECD585 /* UICollectionViewExtensions.swift */,
@@ -445,7 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDEA849296BF09400ECD585 /* UICollectionViewExtensions.swift in Sources */,
-				8DDEA843296BED8D00ECD585 /* SPRadtioButton.swift in Sources */,
+				8DDEA843296BED8D00ECD585 /* SPRadioButton.swift in Sources */,
 				8DDEA84B296BF13000ECD585 /* UITableViewExtensions.swift in Sources */,
 				8DDEA83D296BEB0500ECD585 /* CustomView.swift in Sources */,
 				8DDEA857296BF29500ECD585 /* UILabelExtensions.swift in Sources */,
