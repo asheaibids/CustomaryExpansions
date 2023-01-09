@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-//test
+//tests
 
 extension UIColor {
     convenience init(hex: String) {
