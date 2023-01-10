@@ -88,10 +88,10 @@ class CustomBtn: UIButton {
         // Specific round corners
         var rectCorners: CACornerMask = []
         if roundTopLeft {
-            rectCorners.insert(.layerMaxXMinYCorner)
+            rectCorners.insert(.layerMinXMinYCorner)
         }
         if roundTopRight {
-            rectCorners.insert(.layerMinXMinYCorner)
+            rectCorners.insert(.layerMaxXMinYCorner)
         }
         if roundBottomLeft {
             rectCorners.insert(.layerMinXMaxYCorner)
