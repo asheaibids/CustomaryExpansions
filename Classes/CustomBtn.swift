@@ -73,6 +73,7 @@ class CustomBtn: UIButton {
     }
     
     @IBInspectable var bold: Bool = false
+    @IBInspectable var semiBold: Bool = false
     @IBInspectable var size: CGFloat = 13
     
     //MARK: - Title Color
@@ -106,7 +107,7 @@ class CustomBtn: UIButton {
             self.roundCorners(corners: rectCorners)
         }
         
-        self.titleLabel?.font = bold ? GlobalObjects.shared.getBoldFont(size: size) : GlobalObjects.shared.getFont(size: size)
+        self.titleLabel?.font = bold ? GlobalObjects.shared.getBoldFont(size: size) : semiBold ? GlobalObjects.shared.getSemiBoldFont(size: size) : GlobalObjects.shared.getFont(size: size)
     }
     private func addShadow(shadowColor: CGColor,
                    shadowOffset: CGSize,

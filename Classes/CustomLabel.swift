@@ -17,9 +17,10 @@ class CustomLabel: UILabel {
         }
     }
     @IBInspectable var bold: Bool = false
+    @IBInspectable var semiBold: Bool = false
     @IBInspectable var size: CGFloat = 13
     
     override func awakeFromNib() {
-        self.font = bold ? GlobalObjects.shared.getBoldFont(size: size) : GlobalObjects.shared.getFont(size: size)
+        self.font = bold ? GlobalObjects.shared.getBoldFont(size: size) : semiBold ? GlobalObjects.shared.getSemiBoldFont(size: size) : GlobalObjects.shared.getFont(size: size)
     }
 }

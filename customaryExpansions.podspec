@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'customaryExpansions'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'Custom classes and extensions for iOS apps.'
 
 # This description is used to generate tags and improve search results.
