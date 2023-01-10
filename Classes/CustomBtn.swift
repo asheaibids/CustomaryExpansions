@@ -72,6 +72,9 @@ class CustomBtn: UIButton {
         }
     }
     
+    @IBInspectable var bold: Bool = false
+    @IBInspectable var size: CGFloat = 13
+    
     //MARK: - Title Color
     @IBInspectable var titleColor: UIColor = UIColor(hex:"19202D") { // dark grey
         didSet {
@@ -102,6 +105,8 @@ class CustomBtn: UIButton {
         if !rectCorners.isEmpty {
             self.roundCorners(corners: rectCorners)
         }
+        
+        self.titleLabel?.font = bold ? GlobalObjects.shared.getBoldFont(size: size) : GlobalObjects.shared.getFont(size: size)
     }
     private func addShadow(shadowColor: CGColor,
                    shadowOffset: CGSize,
