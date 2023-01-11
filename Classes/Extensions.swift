@@ -111,7 +111,7 @@ public extension String {
         return (self as NSString).substring(with: result.range)
     }
     
-    public var arToEnDigits : String {
+     var arToEnDigits : String {
         let arabicNumbers = ["،": ",", "٠": "0","١": "1","٢": "2","٣": "3","٤": "4","٥": "5","٦": "6","٧": "7","٨": "8","٩": "9"]
         var txt = self
         _=arabicNumbers.map { txt = txt.replacingOccurrences(of: $0, with: $1)}
