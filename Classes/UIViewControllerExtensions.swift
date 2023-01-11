@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     
     func addBackground(){
         let gradientLayer = CAGradientLayer()

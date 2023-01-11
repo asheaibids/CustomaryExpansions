@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UITableView {
+public extension UITableView {
     
     func setEmptyMessage(font: UIFont) {
         print("UIScreen.main.bounds.size.height = " , UIScreen.main.bounds.size.height) //667.0 -> ipad:iphone app // 896.0 -> XR  // 1024.0 - >ipad

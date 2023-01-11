@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UICollectionView {
+public extension UICollectionView {
     func setEmptyMessage(color: UIColor = .green, font: UIFont) {
         print("UIScreen.main.bounds.size.height = " , UIScreen.main.bounds.size.height) //667.0 -> ipad:iphone app // 896.0 -> XR  // 1024.0 - >ipad
         let messageLabel = UILabel(frame: CGRect(x: 300, y: 200, width: 30, height: 15))

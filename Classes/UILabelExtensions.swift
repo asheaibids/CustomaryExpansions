@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UILabel {
+public extension UILabel {
     public var substituteFontName: String {
         get {
             return self.font.fontName

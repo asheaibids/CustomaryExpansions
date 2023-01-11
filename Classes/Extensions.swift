@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 //testss
 
-extension UIColor {
+public extension UIColor {
     convenience init(hex: String) {
         let scanner = Scanner(string: hex)
         scanner.scanLocation = 0
@@ -30,7 +30,7 @@ extension UIColor {
     }
 }
 
-extension Bundle {
+public extension Bundle {
     var getVersionNumber: Double? {
         let ver = infoDictionary?["CFBundleShortVersionString"] as? String
         let numberFormatter = NumberFormatter()
@@ -54,7 +54,7 @@ extension Bundle {
     }
 }
 
-extension Date {
+public extension Date {
     var ticks: String {
         return String(UInt64((self.timeIntervalSince1970 + 62_135_596_800) * 10_000_000))
     }
@@ -77,7 +77,7 @@ extension Date {
 }
 
 
-extension String {
+public extension String {
 
     func isArabic() -> Bool {
         let predicate = NSPredicate(format: "SELF MATCHES %@", "(?s).*\\p{Arabic}.*")
@@ -134,7 +134,7 @@ extension String {
 
 
 
-extension UIFont {
+public extension UIFont {
     var bold: UIFont {
         return with(traits: .traitBold)
     } // bold
@@ -157,7 +157,7 @@ extension UIFont {
     } // with(traits:)
 } // extension
 
-extension Int {
+public extension Int {
     func withCommas() -> String {
         let numberFormatter = NumberFormatter()
         numberFormatter.locale = Locale(identifier: "en")
@@ -166,7 +166,7 @@ extension Int {
     }
 }
 
-extension Double {
+public extension Double {
     func withCommas() -> String {
         let numberFormatter = NumberFormatter()
         numberFormatter.locale = Locale(identifier: "en")
@@ -176,7 +176,7 @@ extension Double {
 }
 
 
-extension UITapGestureRecognizer {
+public extension UITapGestureRecognizer {
     
     func didTapAttributedTextInLabel(label: UILabel, inRange targetRange: NSRange) -> Bool {
         // Create instances of NSLayoutManager, NSTextContainer and NSTextStorage
@@ -240,7 +240,7 @@ extension UITapGestureRecognizer {
     }
 }
 
-extension Double {
+public extension Double {
     func getNoDecimal() -> String {
         if Double(Int(self)) == self {
             return String(Int(self))
@@ -251,7 +251,7 @@ extension Double {
     }
 }
 
-extension TimeInterval {
+public extension TimeInterval {
     private var milliseconds: Int {
         return Int((truncatingRemainder(dividingBy: 1)) * 1000)
     }

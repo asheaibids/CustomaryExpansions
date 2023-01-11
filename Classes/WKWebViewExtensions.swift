@@ -8,7 +8,7 @@
 import Foundation
 import WebKit
 
-extension WKWebView {
+public extension WKWebView {
     
     func loadingIndicator(_ show: Bool) {
         let tag = 808406

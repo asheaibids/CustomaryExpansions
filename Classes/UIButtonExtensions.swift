@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     
     func loadingIndicator(_ show: Bool) {
         let tag = 808404

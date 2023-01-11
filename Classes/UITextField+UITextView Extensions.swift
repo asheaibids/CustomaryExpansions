@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UITextField {
+public extension UITextField {
     public var substituteFontName: String {
         get {
             return self.font?.fontName ?? ""
@@ -23,7 +23,7 @@ extension UITextField {
     }
 }
 
-extension UITextView {
+public extension UITextView {
     public var substituteFontName: String {
         get {
             return self.font?.fontName ?? ""

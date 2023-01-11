@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension UIImage {
+public extension UIImage {
     
     var isPortrait: Bool { return size.height > size.width }
     var isLandscape: Bool { return size.width > size.height }
@@ -71,7 +71,7 @@ extension UIImage {
     }
 }
 
-extension UIImageView {
+public extension UIImageView {
     func load(url: URL){
         DispatchQueue.global().async { [weak self] in
             if let data = try? Data(contentsOf: url){
