@@ -8,7 +8,7 @@
 import Foundation
 
 @IBDesignable
-class SPRadioButton: UIButton {
+public class SPRadioButton: UIButton {
 
     @IBInspectable
     var gap:CGFloat = 6 {
