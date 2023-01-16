@@ -38,7 +38,7 @@ public class SPRadioButton: UIButton {
         }
     }
 
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         self.contentMode = .scaleAspectFill
         drawCircles(rect: rect)
     }
@@ -74,7 +74,7 @@ public class SPRadioButton: UIButton {
      }
      */
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         addTarget(self, action: #selector(buttonClicked(sender:)), for: UIControl.Event.touchUpInside)
         isOn = false

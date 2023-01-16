@@ -83,7 +83,7 @@ public class CustomBtn: UIButton {
         }
     }
    
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         // Shadow
         if shadowEnabled {
             self.addShadow(shadowColor: self.shadowColor.cgColor, shadowOffset: self.shadowOffset, shadowOpacity: self.shadowOpacity, shadowRadius: self.shadowRadius)
