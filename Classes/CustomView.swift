@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CustomView: UIView {
+open class CustomView: UIView {
     
     //MARK: - Shadow
     @IBInspectable var shadowColor: UIColor = UIColor(hex: "9397A0")

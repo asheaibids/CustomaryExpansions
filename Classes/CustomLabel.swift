@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CustomLabel: UILabel {
+open class CustomLabel: UILabel {
     
     @IBInspectable var key: String = "" {
         didSet {

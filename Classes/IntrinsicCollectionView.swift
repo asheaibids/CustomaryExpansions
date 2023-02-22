@@ -10,29 +10,29 @@ import UIKit
 
 //When something changes in your custom view that invalidates its intrinsic content size. This allows the constraint-based layout system to take the new intrinsic content size into account in its next layout pass.
 
-public class IntrinsicHorizontalCollectionView: UICollectionView {
+open class IntrinsicHorizontalCollectionView: UICollectionView {
 
-    public override var contentSize:CGSize {
+    open override var contentSize:CGSize {
         didSet {
             self.invalidateIntrinsicContentSize()
         }
     }
 
-    public override var intrinsicContentSize: CGSize {
+    open override var intrinsicContentSize: CGSize {
         self.layoutIfNeeded()
         return CGSize(width: contentSize.width , height: UIViewNoIntrinsicMetric)
     }
 
 }
-public class IntrinsicVerticalCollectionView: UICollectionView {
+open class IntrinsicVerticalCollectionView: UICollectionView {
 
-    public override var contentSize:CGSize {
+    open override var contentSize:CGSize {
         didSet {
             self.invalidateIntrinsicContentSize()
         }
     }
 
-    public override var intrinsicContentSize: CGSize {
+    open override var intrinsicContentSize: CGSize {
         self.layoutIfNeeded()
         return CGSize(width: UIViewNoIntrinsicMetric, height: contentSize.height)
     }

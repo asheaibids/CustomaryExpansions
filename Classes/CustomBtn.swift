@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CustomBtn: UIButton {
+open class CustomBtn: UIButton {
     
     //MARK: - Shadow
     @IBInspectable var shadowColor: UIColor = UIColor(hex: "9397A0") // light grey
